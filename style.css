@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+}
+p::first-line{
+    color: red;
+}
+h1{
+    color: blue;
+}
+nav p{
+    color: blue;
+    display: inline;
+}
+nav p:hover{
+    background-color: yellow;
+    color: red;
+}
+a:link{
+    background-color: white;
+    color: blue;
+text-decoration: underline;
+
+}
+a:visited{
+    color: white;
+    background-color: blue;
+text-decoration: underline;
+}
